@@ -1,0 +1,6 @@
+<div *ngIf="(element$ | async) as element">
+  <span>name: {{element.name}}</span>
+  <span>symbol: {{element.symbol}}</span>
+  <span>weight: {{element.weight}}</span>
+  <button mat-button (click)="goToList(element.symbol)">Go Back</button>
+</div>
