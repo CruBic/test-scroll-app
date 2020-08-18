@@ -1,5 +1,9 @@
 # ScrollTestApp
 
+This simple project shows table with clickable rows. Click on a row will open details page with element information and 'Go Back' button.
+When 'Go Back' button is clicked, user is redirected to table with saved paging and scroll position.
+Also table page has embedded widget from https://github.com/CruBic/test-widget.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
